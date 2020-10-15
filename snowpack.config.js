@@ -4,8 +4,8 @@ module.exports = {
     src: "/_dist_",
   },
   devOptions: {
-    output: "stream",
-    open: "none",
+    output: "dashboard" /* "stream" is better for debugging snowpack plugins */,
+    open: "default" /* "none" to turn off browser auto-open & load page */,
   },
   plugins: [
     "@snowpack/plugin-svelte",
