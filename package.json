@@ -16,6 +16,8 @@
     "@testing-library/svelte": "^3.0.0",
     "jest": "^26.2.2",
     "snowpack": "^2.14.0",
+    "snowpack-plugin-relative-css-urls": "^1.0.0",
+    "snowpack-plugin-rollup-bundle": "^0.2.3",
     "svelte-check": "^1.0.0"
   }
 }
